@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI", "AI\AI.csproj", "{44680AE6-BC06-4D24-A753-89EFC5A9B95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID3", "ID3\ID3.csproj", "{917DD820-5AB0-4708-8644-FBC95FE1822D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prolog", "prolog\prolog.csproj", "{83B5B850-6BB2-4BED-AB12-3B33C7179672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "decision_tree", "decision_tree\decision_tree.csproj", "{9D65372B-6B39-4843-8967-2DD20497CC32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44680AE6-BC06-4D24-A753-89EFC5A9B95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44680AE6-BC06-4D24-A753-89EFC5A9B95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44680AE6-BC06-4D24-A753-89EFC5A9B95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44680AE6-BC06-4D24-A753-89EFC5A9B95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917DD820-5AB0-4708-8644-FBC95FE1822D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917DD820-5AB0-4708-8644-FBC95FE1822D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917DD820-5AB0-4708-8644-FBC95FE1822D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917DD820-5AB0-4708-8644-FBC95FE1822D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B5B850-6BB2-4BED-AB12-3B33C7179672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B5B850-6BB2-4BED-AB12-3B33C7179672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B5B850-6BB2-4BED-AB12-3B33C7179672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B5B850-6BB2-4BED-AB12-3B33C7179672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D65372B-6B39-4843-8967-2DD20497CC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D65372B-6B39-4843-8967-2DD20497CC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D65372B-6B39-4843-8967-2DD20497CC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D65372B-6B39-4843-8967-2DD20497CC32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

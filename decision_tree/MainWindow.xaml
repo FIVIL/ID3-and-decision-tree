@@ -1,0 +1,26 @@
+﻿<Window x:Class="decision_tree.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com" 
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+        xmlns:local="clr-namespace:decision_tree"
+        mc:Ignorable="d"
+        Title="^_^ " Height="900" Width="1800">
+    <Grid Name="g" ScrollViewer.HorizontalScrollBarVisibility="Visible" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Image x:Name="img" Opacity="0.85"/>
+        <TextBlock  FontSize="35" Text="Enter the path of sorce files:" Margin="474,312,-474.5,-312.5" />
+        <TextBlock FontSize="35" Text="path:" Margin="332,402,-332.5,-402.5"/>
+        <TextBox FontSize="20" Height="50" Margin="429,402,309.5,420.5" GotFocus="TextBox_GotFocus"
+                 Name="te1" VerticalContentAlignment="Center" />
+        <Button x:Name="button"  HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="649,488,0,0" Click="button_Click">
+            <TextBlock Text="Start and create tree!" FontSize="25"  />
+        </Button>
+
+
+
+
+    </Grid>
+
+</Window>
